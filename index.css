@@ -1,0 +1,23 @@
+html, a {
+    background-color: #ADD8E6;
+    color:white;
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+header, ul li a, footer {
+    background-color: #333333;
+}
+
+main p {
+    color: black;
+}
+
+p {
+    font-size: 18px;
+}
