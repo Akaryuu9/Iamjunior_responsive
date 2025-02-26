@@ -1,6 +1,9 @@
 html, a {
-    background-color: #ADD8E6;
+    /* background-color: #ADD8E6; */
+    background-color: #fff;
     color:white;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
@@ -9,6 +12,13 @@ li {
 a {
     text-decoration: none;
 }
+nav ul li {
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+ nav {
+    padding: 5px 0 10px 0;
+}
 
 header, ul li a, footer {
     background-color: #333333;
@@ -16,8 +26,23 @@ header, ul li a, footer {
 
 main p {
     color: black;
+    padding-bottom: 20px;
 }
 
 p {
     font-size: 18px;
+}
+
+main {
+
+    padding:30px;
+}
+
+#hide {
+    padding:10px;
+    background-color: lightgray;
+}
+
+footer {
+    padding: 30px;
 }
